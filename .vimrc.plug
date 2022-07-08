@@ -1,0 +1,20 @@
+" .vimrc.plug
+call plug#begin('~/.vim/plugged')
+
+" code completion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" fuzzy find files (:Files)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" tabs at top of window (:bnext, :bprev)
+Plug 'ap/vim-buftabline'
+
+" status bar at bottom of window
+Plug 'itchyny/lightline.vim'
+
+" directory tree (:NERDTree)
+Plug 'preservim/nerdtree'
+
+call plug#end()
