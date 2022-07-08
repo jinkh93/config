@@ -3,4 +3,6 @@
     && nvm install node \
     && cp .vimrc ~ \
     && cp .vimrc.plug ~ \
-    && cp .zshrc ~
+    && cp .zshrc ~ \
+    && curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

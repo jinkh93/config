@@ -1,3 +1,7 @@
+# Install
+
+Run the install script `. install.sh` to install Homebrew, nvm, node (via nvm) and VimPlug. The installer script also moves the config files to `~`.
+
 # VIM
 
 - Checkout and move the .vimrc & .vimrc.plug files into ~
