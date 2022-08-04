@@ -1,13 +1,21 @@
 # Install
 
-Run the install script `. install.sh` to install Homebrew, nvm, node (via nvm) and VimPlug. The installer script also moves the config files to `~`.
+Run the install script via `sh install.sh`. It installs the following software:
 
-# VIM
+- [homebrew](https://brew.sh/)
+- [nvm](https://github.com/nvm-sh/nvm) via homebrew
+- [node](https://nodejs.org/en/) via nvm
+- [vim-plug](https://github.com/junegunn/vim-plug)
 
-- Checkout and move the .vimrc & .vimrc.plug files into ~
-- Install [vim.plug](https://github.com/junegunn/vim-plug) on the machine.
-- Open up `vim` and run `:PlugInstall`
+The script will also move necessary config files to `$HOME`. The following files are moved:
 
-# ZSH
+- .zprofile
+- .zshrc
+- .vimrc
+- .vimrc.plug
 
-- Checkout and move the `~/.zshrc` files into `~`
+## VIM
+
+After the install script has completed; open up `vim` and run `:PlugInstall` to install the
+vim-plug plugins.
+
