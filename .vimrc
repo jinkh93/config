@@ -15,6 +15,9 @@ set smartindent
 set smartcase
 set nu
 set nowrap
+set wrap
+set linebreak
+set breakindent
 set timeoutlen=2000
 
 " plugins
